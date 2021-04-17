@@ -2,13 +2,11 @@ body {
     background-color: black;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -18,7 +16,6 @@ body {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     color: cyan;
 }
@@ -33,14 +30,14 @@ body {
 
 .text-beside-img {
     font-size: 30pt;
-    position: relative;
-    right: -700px;
-    top: -270px;
+    margin-top: 150px;
+   
 }
+
 
 .aboutMe {
     position: relative;
-    right: -400px;
+    left:-200px;
     top:40px;
 }
 
@@ -52,8 +49,18 @@ body {
     line-height: 40px;
     font-weight: bold;
     position: relative;
-    right: -400px;
+    left: -200px;
     top:60px;
+}
+
+.header {
+    margin-top: 150px;
+    color: orange;
+    text-align: center;
+}
+
+#content {
+    margin-top: 100px;
 }
 
 #edu {
