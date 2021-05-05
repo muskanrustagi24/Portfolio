@@ -73,8 +73,3 @@ body {
     line-height: 50px;
     font-weight: bold;
 }
-
-#contact {
-    position: relative;
-    right: -100px;
-}
